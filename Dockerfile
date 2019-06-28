@@ -13,6 +13,6 @@ RUN rm t50-5.8.4.tar.gz
 # RUN groupadd -r t50 && useradd -r -g t50 t50 && \
 # chown -R t50 ${T50_PATH} && chgrp -R t50 ${T50_PATH}
 USER root
-CMD ['t50', '--help']
+CMD ['t50']
 # RUN nice -n 19 t50&
 #RUN renice +999 -u root -p 1
